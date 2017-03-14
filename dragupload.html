@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>drag</title>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/upload.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head> 
+<script>
+$(function(){ 
+	dragupload.loadarea.init() 
+	})
+
+</script>
+
+<body >
+ <form name="form" id="form">  
+ <input type="file" id="upload"  name="upload"  multiple="multiple">
+ </form>  
+<div class="dragarea" id="dragareaup">
+
+拖到此处，即可上传！或者点击上传
+<img style=" display:inline-block; vertical-align:middle" src="img/2.jpg"/>
+
+</div>
+<div id="result"></div>
+</body>
+</html>
