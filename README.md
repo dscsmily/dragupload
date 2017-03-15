@@ -1,5 +1,11 @@
 # dragupload
+
+多个图片拖拽上传，和点击上传
+
 ## [demo](http://htmlpreview.github.io/?https://github.com/dscsmily/dragupload/blob/master/dragupload.html)
+
+
+
 
 ## 主要方法
 
@@ -100,3 +106,9 @@
 			reader.readAsDataURL(file); 
 	 }
 	 
+
+
+
+#  演示方法
+
+下载到本地服务即可
